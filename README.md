@@ -1,2 +1,2 @@
 # TodoList
-TodoList Using react-native
+TodoList using react-native

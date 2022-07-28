@@ -26,7 +26,7 @@ export default function App() {
   }
   const onRemove = id=>e=> {
     setTodos(todos.filter(todo => todo.id !== id));
-    setCount(count-1);
+    count<=0?setCount(0):setCount(count-1);
   };
   const onToggle =id=>e=>{
     setTodos(
